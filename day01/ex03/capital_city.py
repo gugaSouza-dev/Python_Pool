@@ -1,6 +1,6 @@
 import sys
 
-def	capital_exists(key_word, dict):
+def	find_by_key(key_word, dict):
 	for k, v in dict.items():
 		if k == key_word:
 			return v
@@ -22,8 +22,7 @@ def	capital_finder():
 	"NJ": "Trenton",
 	"CO": "Denver"
 	}
-	state = sys.argv[1]
-	capital = capital_exists(capital_exists(state, states), capital_cities)
+	capital = find_by_key(find_by_key(sys.argv[1], states), capital_cities)
 	print(capital)
 
 if __name__ == '__main__':
