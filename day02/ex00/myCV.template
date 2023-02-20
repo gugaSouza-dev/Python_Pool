@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head>
+	<title>{name}'s Resume</title>
+</head>
+<html>
+	<p>My name is {surname}</p>
+	<p>{name} {surname}</p>
+	<p>I'm {age} years old</p>
+	<p>My profession is {job}</p>
+</html>
