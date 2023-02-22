@@ -30,7 +30,7 @@ class Chocolate(HotBeverage):
 	def description(self):
 		return "Chocolate, sweet chocolate..."
 
-class Cappucino(HotBeverage):
+class Cappuccino(HotBeverage):
 	name = "Cappucino"
 	price = 0.45
 
